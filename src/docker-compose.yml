@@ -1,0 +1,6 @@
+﻿services:
+  D09.SampleProject.WeatherApi.Sync.api:
+    image: D09.SampleProject.WeatherApi.Sync.api
+    build:
+      context: .
+      dockerfile: D09.SampleProject.WeatherApi.Sync.Api/Dockerfile
